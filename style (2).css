@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 160px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: black;
+}
+.content p{
+    font-size: 20px;
+    color: rgb(0, 130, 139);
+}
+.content{
+    margin-left: 10%;
+    margin-top:10% ;
+}
+.content .btn{
+    display: inline-block;
+    background: linear-gradient(45deg,#3eadcf,#37d5d6);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color:#fff;
+}
+.feature-img{
+    height: 70%;
+    position: absolute;
+    bottom: 120px;
+    right: 70px;
+}
+.social-links{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -170px;
+    bottom: 250px;
+}
+.social-links a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 14px;
+}
